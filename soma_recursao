@@ -11,16 +11,3 @@ public void func(int a, int b, int cont, int soma){
   }
 }
 
-////teste q eu acho q funciona
-
-public void func(int a, int b, int cont){
-  App teste = new App();
-  int soma = a;
-  if(cont == b){
-    System.out.println("exq: " + soma);
-  }else{
-    cont +=1;
-    soma = a+soma;
-    teste.func(soma,b,cont);
-  }
-}
